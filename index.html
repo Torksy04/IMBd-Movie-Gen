@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Movie Generator</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .movie-card {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: none;
+        }
+
+        .movie-info {
+            margin: 10px 0;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .loading {
+            text-align: center;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Movie Generator</h1>
+        <button id="generateBtn">Generate Random Movie</button>
+        
+        <div id="loading" class="loading">
+            Loading...
+        </div>
+
+        <div id="movieCard" class="movie-card">
+            <div class="movie-info">
+                <span class="label">Title:</span> 
+                <span id="movieTitle"></span>
+            </div>
+            <div class="movie-info">
+                <span class="label">Year:</span> 
+                <span id="movieYear"></span>
+            </div>
+            <div class="movie-info">
+                <span class="label">Rating:</span> 
+                <span id="movieRating"></span>
+            </div>
+            <div class="movie-info">
+                <span class="label">Genre:</span> 
+                <span id="movieGenre"></span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('generateBtn').addEventListener('click', generateMovie);
+
+        async function generateMovie() {
+            const loadingElement = document.getElementById('loading');
+            const movieCard = document.getElementById('movieCard');
+            
+            loadingElement.style.display = 'block';
+            movieCard.style.display = 'none';
+
+            try {
+                const response = await fetch('movies.json');
+                const movies = await response.json();
+                
+                // Generate random movie
+                const randomMovie = movies[Math.floor(Math.random() * movies.length)];
+                
+                // Update UI
+                document.getElementById('movieTitle').textContent = randomMovie.title;
+                document.getElementById('movieYear').textContent = randomMovie.year;
+                document.getElementById('movieRating').textContent = randomMovie.rating;
+                document.getElementById('movieGenre').textContent = randomMovie.genre;
+                
+                movieCard.style.display = 'block';
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error loading movies. Please try again.');
+            } finally {
+                loadingElement.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
