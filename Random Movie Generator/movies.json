@@ -1,0 +1,1436 @@
+[
+  {
+    "title": "The Shawshank Redemption",
+    "year": "1994",
+    "rating": "9.3",
+    "genre": "Drama"
+  },
+  {
+    "title": "The Godfather",
+    "year": "1972",
+    "rating": "9.2",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "The Godfather Part II",
+    "year": "1974",
+    "rating": "9.0",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": "2008",
+    "rating": "9.0",
+    "genre": "Action, Crime, Drama, Thriller"
+  },
+  {
+    "title": "12 Angry Men",
+    "year": "1957",
+    "rating": "9.0",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Schindler's List",
+    "year": "1993",
+    "rating": "9.0",
+    "genre": "Biography, Drama, History"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": "2003",
+    "rating": "9.0",
+    "genre": "Adventure, Drama, Fantasy"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "rating": "8.9",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "The Good, the Bad and the Ugly",
+    "year": "1966",
+    "rating": "8.8",
+    "genre": "Adventure, Drama, Western"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": "2001",
+    "rating": "8.9",
+    "genre": "Adventure, Drama, Fantasy"
+  },
+  {
+    "title": "Fight Club",
+    "year": "1999",
+    "rating": "8.8",
+    "genre": "Drama"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": "1994",
+    "rating": "8.8",
+    "genre": "Drama, Romance"
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "year": "2002",
+    "rating": "8.8",
+    "genre": "Adventure, Drama, Fantasy"
+  },
+  {
+    "title": "Inception",
+    "year": "2010",
+    "rating": "8.8",
+    "genre": "Action, Adventure, Sci-Fi, Thriller"
+  },
+  {
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": "1980",
+    "rating": "8.7",
+    "genre": "Action, Adventure, Fantasy, Sci-Fi"
+  },
+  {
+    "title": "The Matrix",
+    "year": "1999",
+    "rating": "8.7",
+    "genre": "Action, Sci-Fi"
+  },
+  {
+    "title": "Goodfellas",
+    "year": "1990",
+    "rating": "8.7",
+    "genre": "Biography, Crime, Drama"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": "1975",
+    "rating": "8.7",
+    "genre": "Drama"
+  },
+  {
+    "title": "Seven Samurai",
+    "year": "1954",
+    "rating": "8.6",
+    "genre": "Action, Drama"
+  },
+  {
+    "title": "Seven",
+    "year": "1995",
+    "rating": "8.6",
+    "genre": "Crime, Drama, Mystery, Thriller"
+  },
+  {
+    "title": "City of God",
+    "year": "2002",
+    "rating": "8.6",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Star Wars: Episode IV - A New Hope",
+    "year": "1977",
+    "rating": "8.6",
+    "genre": "Action, Adventure, Fantasy, Sci-Fi"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "year": "1991",
+    "rating": "8.6",
+    "genre": "Crime, Drama, Horror, Thriller"
+  },
+  {
+    "title": "It's a Wonderful Life",
+    "year": "1946",
+    "rating": "8.6",
+    "genre": "Drama, Family, Fantasy, Romance"
+  },
+  {
+    "title": "Life Is Beautiful",
+    "year": "1997",
+    "rating": "8.6",
+    "genre": "Comedy, Drama, Romance, War"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "year": "1998",
+    "rating": "8.6",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "Spirited Away",
+    "year": "2001",
+    "rating": "8.6",
+    "genre": "Animation, Adventure, Family, Fantasy, Mystery"
+  },
+  {
+    "title": "The Green Mile",
+    "year": "1999",
+    "rating": "8.6",
+    "genre": "Crime, Drama, Fantasy, Mystery"
+  },
+  {
+    "title": "Interstellar",
+    "year": "2014",
+    "rating": "8.7",
+    "genre": "Adventure, Drama, Sci-Fi"
+  },
+  {
+    "title": "The Usual Suspects",
+    "year": "1995",
+    "rating": "8.5",
+    "genre": "Crime, Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Rear Window",
+    "year": "1954",
+    "rating": "8.5",
+    "genre": "Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Psycho",
+    "year": "1960",
+    "rating": "8.5",
+    "genre": "Horror, Mystery, Thriller"
+  },
+  {
+    "title": "American History X",
+    "year": "1998",
+    "rating": "8.5",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "City Lights",
+    "year": "1931",
+    "rating": "8.5",
+    "genre": "Comedy, Drama, Romance"
+  },
+  {
+    "title": "Once Upon a Time in the West",
+    "year": "1968",
+    "rating": "8.5",
+    "genre": "Drama, Western"
+  },
+  {
+    "title": "Casablanca",
+    "year": "1942",
+    "rating": "8.5",
+    "genre": "Drama, Romance, War"
+  },
+  {
+    "title": "Modern Times",
+    "year": "1936",
+    "rating": "8.5",
+    "genre": "Comedy, Drama, Romance"
+  },
+  {
+    "title": "The Pianist",
+    "year": "2002",
+    "rating": "8.5",
+    "genre": "Biography, Drama, Music, War"
+  },
+  {
+    "title": "The Intouchables",
+    "year": "2011",
+    "rating": "8.5",
+    "genre": "Comedy, Drama"
+  },
+  {
+    "title": "Terminator 2: Judgment Day",
+    "year": "1991",
+    "rating": "8.6",
+    "genre": "Action, Adventure, Sci-Fi"
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "year": "1988",
+    "rating": "8.5",
+    "genre": "Animation, Drama, War"
+  },
+  {
+    "title": "Cinema Paradiso",
+    "year": "1988",
+    "rating": "8.5",
+    "genre": "Drama, Romance"
+  },
+  {
+    "title": "Seven Samurai",
+    "year": "1954",
+    "rating": "8.6",
+    "genre": "Action, Drama"
+  },
+  {
+    "title": "Apocalypse Now",
+    "year": "1979",
+    "rating": "8.4",
+    "genre": "Drama, Mystery, War"
+  },
+  {
+    "title": "Memento",
+    "year": "2000",
+    "rating": "8.4",
+    "genre": "Mystery, Thriller"
+  },
+  {
+    "title": "Raiders of the Lost Ark",
+    "year": "1981",
+    "rating": "8.4",
+    "genre": "Action, Adventure"
+  },
+  {
+    "title": "The Great Dictator",
+    "year": "1940",
+    "rating": "8.4",
+    "genre": "Comedy, Drama, War"
+  },
+  {
+    "title": "Sunset Boulevard",
+    "year": "1950",
+    "rating": "8.4",
+    "genre": "Drama, Film-Noir"
+  },
+  {
+    "title": "Léon: The Professional",
+    "year": "1994",
+    "rating": "8.5",
+    "genre": "Action, Crime, Drama, Thriller"
+  },
+  {
+    "title": "Alien",
+    "year": "1979",
+    "rating": "8.5",
+    "genre": "Horror, Sci-Fi"
+  },
+  {
+    "title": "Memento",
+    "year": "2000",
+    "rating": "8.4",
+    "genre": "Mystery, Thriller"
+  },
+  {
+    "title": "The Lives of Others",
+    "year": "2006",
+    "rating": "8.4",
+    "genre": "Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "year": "1964",
+    "rating": "8.3",
+    "genre": "Comedy, War"
+  },
+  {
+    "title": "The Shining",
+    "year": "1980",
+    "rating": "8.4",
+    "genre": "Drama, Horror"
+  },
+  {
+    "title": "Witness for the Prosecution",
+    "year": "1957",
+    "rating": "8.4",
+    "genre": "Crime, Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Chinatown",
+    "year": "1974",
+    "rating": "8.1",
+    "genre": "Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Princess Mononoke",
+    "year": "1997",
+    "rating": "8.3",
+    "genre": "Animation, Adventure, Fantasy"
+  },
+  {
+    "title": "Oldboy",
+    "year": "2003",
+    "rating": "8.3",
+    "genre": "Action, Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Amadeus",
+    "year": "1984",
+    "rating": "8.4",
+    "genre": "Biography, Drama, Music"
+  },
+  {
+    "title": "High and Low",
+    "year": "1963",
+    "rating": "8.4",
+    "genre": "Crime, Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Braveheart",
+    "year": "1995",
+    "rating": "8.3",
+    "genre": "Biography, Drama, War"
+  },
+  {
+    "title": "Die Hard",
+    "year": "1988",
+    "rating": "8.2",
+    "genre": "Action, Thriller"
+  },
+  {
+    "title": "Downfall",
+    "year": "2004",
+    "rating": "8.2",
+    "genre": "Biography, Drama, History, War"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "year": "1992",
+    "rating": "8.3",
+    "genre": "Crime, Thriller"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "year": "2000",
+    "rating": "8.3",
+    "genre": "Drama"
+  },
+  {
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "year": "1983",
+    "rating": "8.3",
+    "genre": "Action, Adventure, Fantasy, Sci-Fi"
+  },
+  {
+    "title": "Das Boot",
+    "year": "1981",
+    "rating": "8.4",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "M",
+    "year": "1931",
+    "rating": "8.3",
+    "genre": "Crime, Mystery, Thriller"
+  },
+  {
+    "title": "Vertigo",
+    "year": "1958",
+    "rating": "8.3",
+    "genre": "Mystery, Romance, Thriller"
+  },
+  {
+    "title": "Amélie",
+    "year": "2001",
+    "rating": "8.3",
+    "genre": "Comedy, Romance"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": "2004",
+    "rating": "8.3",
+    "genre": "Drama, Romance, Sci-Fi"
+  },
+  {
+    "title": "Citizen Kane",
+    "year": "1941",
+    "rating": "8.3",
+    "genre": "Drama, Mystery"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "year": "1971",
+    "rating": "8.2",
+    "genre": "Crime, Sci-Fi"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "year": "1987",
+    "rating": "8.2",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "North by Northwest",
+    "year": "1959",
+    "rating": "8.3",
+    "genre": "Adventure, Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Anand",
+    "year": "1971",
+    "rating": "8.1",
+    "genre": "Drama, Musical"
+  },
+  {
+    "title": "Lawrence of Arabia",
+    "year": "1962",
+    "rating": "8.3",
+    "genre": "Adventure, Biography, Drama, War"
+  },
+  {
+    "title": "The Apartment",
+    "year": "1960",
+    "rating": "8.3",
+    "genre": "Comedy, Drama, Romance"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "year": "1962",
+    "rating": "8.3",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "The Kid",
+    "year": "1921",
+    "rating": "8.2",
+    "genre": "Comedy, Drama, Family"
+  },
+  {
+    "title": "The Sting",
+    "year": "1973",
+    "rating": "8.3",
+    "genre": "Comedy, Crime, Drama"
+  },
+  {
+    "title": "Metropolis",
+    "year": "1927",
+    "rating": "8.3",
+    "genre": "Drama, Sci-Fi"
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "year": "1988",
+    "rating": "8.5",
+    "genre": "Animation, Drama, War"
+  },
+  {
+    "title": "Bicycle Thieves",
+    "year": "1948",
+    "rating": "8.3",
+    "genre": "Drama"
+  },
+  {
+    "title": "Scarface",
+    "year": "1983",
+    "rating": "8.3",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Monty Python and the Holy Grail",
+    "year": "1975",
+    "rating": "8.2",
+    "genre": "Adventure, Comedy, Fantasy"
+  },
+  {
+    "title": "L.A. Confidential",
+    "year": "1997",
+    "rating": "8.2",
+    "genre": "Crime, Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Rashomon",
+    "year": "1950",
+    "rating": "8.2",
+    "genre": "Crime, Drama, Mystery"
+  },
+  {
+    "title": "Indiana Jones and the Last Crusade",
+    "year": "1989",
+    "rating": "8.2",
+    "genre": "Action, Adventure"
+  },
+  {
+    "title": "All About Eve",
+    "year": "1950",
+    "rating": "8.2",
+    "genre": "Drama"
+  },
+  {
+    "title": "Yojimbo",
+    "year": "1961",
+    "rating": "8.2",
+    "genre": "Action, Drama, Thriller"
+  },
+  {
+    "title": "Batman Begins",
+    "year": "2005",
+    "rating": "8.2",
+    "genre": "Action, Drama"
+  },
+  {
+    "title": "Some Like It Hot",
+    "year": "1959",
+    "rating": "8.2",
+    "genre": "Comedy, Music, Romance"
+  },
+  {
+    "title": "The Treasure of the Sierra Madre",
+    "year": "1948",
+    "rating": "8.2",
+    "genre": "Adventure, Drama, Western"
+  },
+  {
+    "title": "Toy Story",
+    "year": "1995",
+    "rating": "8.3",
+    "genre": "Animation, Adventure, Comedy, Family, Fantasy"
+  },
+  {
+    "title": "For a Few Dollars More",
+    "year": "1965",
+    "rating": "8.2",
+    "genre": "Drama, Western"
+  },
+  {
+    "title": "The 400 Blows",
+    "year": "1959",
+    "rating": "8.0",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Once Upon a Time in America",
+    "year": "1984",
+    "rating": "8.3",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Casino",
+    "year": "1995",
+    "rating": "8.2",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Unforgiven",
+    "year": "1992",
+    "rating": "8.2",
+    "genre": "Drama, Western"
+  },
+  {
+    "title": "Raging Bull",
+    "year": "1980",
+    "rating": "8.1",
+    "genre": "Biography, Drama, Sport"
+  },
+  {
+    "title": "The Great Escape",
+    "year": "1963",
+    "rating": "8.2",
+    "genre": "Adventure, Drama, Thriller, War"
+  },
+  {
+    "title": "Children of Heaven",
+    "year": "1997",
+    "rating": "8.2",
+    "genre": "Drama, Family, Sport"
+  },
+  {
+    "title": "Sweet Smell of Success",
+    "year": "1957",
+    "rating": "8.0",
+    "genre": "Drama, Film-Noir"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "year": "2009",
+    "rating": "8.4",
+    "genre": "Adventure, Drama, War"
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "year": "1968",
+    "rating": "8.3",
+    "genre": "Adventure, Sci-Fi"
+  },
+  {
+    "title": "Ikiru",
+    "year": "1952",
+    "rating": "8.3",
+    "genre": "Drama"
+  },
+  {
+    "title": "The Princess Bride",
+    "year": "1987",
+    "rating": "8.0",
+    "genre": "Adventure, Comedy, Family, Fantasy, Romance"
+  },
+  {
+    "title": "Stand by Me",
+    "year": "1986",
+    "rating": "8.1",
+    "genre": "Adventure, Comedy, Drama"
+  },
+  {
+    "title": "Come and See",
+    "year": "1985",
+    "rating": "8.3",
+    "genre": "Drama, Thriller, War"
+  },
+  {
+    "title": "8½",
+    "year": "1963",
+    "rating": "8.0",
+    "genre": "Drama"
+  },
+  {
+    "title": "Heat",
+    "year": "1995",
+    "rating": "8.3",
+    "genre": "Action, Crime, Drama"
+  },
+  {
+    "title": "Strangers on a Train",
+    "year": "1951",
+    "rating": "7.9",
+    "genre": "Crime, Drama, Film-Noir, Thriller"
+  },
+  {
+    "title": "The Manchurian Candidate",
+    "year": "1962",
+    "rating": "7.9",
+    "genre": "Drama, Thriller"
+  },
+  {
+    "title": "Barry Lyndon",
+    "year": "1975",
+    "rating": "8.1",
+    "genre": "Adventure, Drama, War"
+  },
+  {
+    "title": "Taxi Driver",
+    "year": "1976",
+    "rating": "8.2",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Double Indemnity",
+    "year": "1944",
+    "rating": "8.3",
+    "genre": "Crime, Drama, Film-Noir, Mystery, Thriller"
+  },
+  {
+    "title": "The 400 Blows",
+    "year": "1959",
+    "rating": "8.0",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Nausicaä of the Valley of the Wind",
+    "year": "1984",
+    "rating": "8.0",
+    "genre": "Animation, Adventure, Sci-Fi"
+  },
+  {
+    "title": "Stalker",
+    "year": "1979",
+    "rating": "8.0",
+    "genre": "Drama, Sci-Fi"
+  },
+  {
+    "title": "The Exorcist",
+    "year": "1973",
+    "rating": "8.1",
+    "genre": "Horror"
+  },
+  {
+    "title": "La haine",
+    "year": "1995",
+    "rating": "8.1",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "The Battle of Algiers",
+    "year": "1966",
+    "rating": "8.1",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "Ben-Hur",
+    "year": "1959",
+    "rating": "8.1",
+    "genre": "Adventure, Drama"
+  },
+  {
+    "title": "Singin' in the Rain",
+    "year": "1952",
+    "rating": "8.3",
+    "genre": "Comedy, Musical, Romance"
+  },
+  {
+    "title": "The Third Man",
+    "year": "1949",
+    "rating": "8.1",
+    "genre": "Drama, Film-Noir, Mystery, Thriller"
+  },
+  {
+    "title": "Network",
+    "year": "1976",
+    "rating": "8.1",
+    "genre": "Drama"
+  },
+  {
+    "title": "Blade Runner",
+    "year": "1982",
+    "rating": "8.1",
+    "genre": "Action, Drama, Sci-Fi, Thriller"
+  },
+  {
+    "title": "Lagaan: Once Upon a Time in India",
+    "year": "2001",
+    "rating": "8.1",
+    "genre": "Drama, Musical, Sport"
+  },
+  {
+    "title": "Dial M for Murder",
+    "year": "1954",
+    "rating": "8.2",
+    "genre": "Crime, Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Before Sunrise",
+    "year": "1995",
+    "rating": "8.1",
+    "genre": "Drama, Romance"
+  },
+  {
+    "title": "The Thing",
+    "year": "1982",
+    "rating": "8.2",
+    "genre": "Horror, Mystery, Sci-Fi"
+  },
+  {
+    "title": "The Man Who Shot Liberty Valance",
+    "year": "1962",
+    "rating": "8.1",
+    "genre": "Drama, Western"
+  },
+  {
+    "title": "On the Waterfront",
+    "year": "1954",
+    "rating": "8.1",
+    "genre": "Crime, Drama, Thriller"
+  },
+  {
+    "title": "Mr. Smith Goes to Washington",
+    "year": "1939",
+    "rating": "8.1",
+    "genre": "Comedy, Drama"
+  },
+  {
+    "title": "Gandhi",
+    "year": "1982",
+    "rating": "8.0",
+    "genre": "Biography, Drama, History"
+  },
+  {
+    "title": "The Seventh Seal",
+    "year": "1957",
+    "rating": "8.1",
+    "genre": "Drama, Fantasy"
+  },
+  {
+    "title": "Fargo",
+    "year": "1996",
+    "rating": "8.1",
+    "genre": "Crime, Drama, Thriller"
+  },
+  {
+    "title": "The Lost Boys",
+    "year": "1987",
+    "rating": "7.2",
+    "genre": "Comedy, Horror"
+  },
+  {
+    "title": "The Deer Hunter",
+    "year": "1978",
+    "rating": "8.1",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "The Gold Rush",
+    "year": "1925",
+    "rating": "8.1",
+    "genre": "Adventure, Comedy, Drama, Romance, Western"
+  },
+  {
+    "title": "Wild Strawberries",
+    "year": "1957",
+    "rating": "8.1",
+    "genre": "Drama, Romance"
+  },
+  {
+    "title": "Jaws",
+    "year": "1975",
+    "rating": "8.1",
+    "genre": "Adventure, Drama, Horror, Thriller"
+  },
+  {
+    "title": "Trainspotting",
+    "year": "1996",
+    "rating": "8.1",
+    "genre": "Drama"
+  },
+  {
+    "title": "The Bandit",
+    "year": "1996",
+    "rating": "8.1",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Sherlock Jr.",
+    "year": "1924",
+    "rating": "8.2",
+    "genre": "Action, Comedy, Romance"
+  },
+  {
+    "title": "Ran",
+    "year": "1985",
+    "rating": "8.2",
+    "genre": "Action, Drama, War"
+  },
+  {
+    "title": "Dersu Uzala",
+    "year": "1975",
+    "rating": "8.2",
+    "genre": "Adventure, Biography, Drama"
+  },
+  {
+    "title": "The Bridge on the River Kwai",
+    "year": "1957",
+    "rating": "8.1",
+    "genre": "Adventure, Drama, War"
+  },
+  {
+    "title": "The Passion of Joan of Arc",
+    "year": "1928",
+    "rating": "8.1",
+    "genre": "Biography, Drama, History"
+  },
+  {
+    "title": "Dead Poets Society",
+    "year": "1989",
+    "rating": "8.1",
+    "genre": "Comedy, Drama"
+  },
+  {
+    "title": "Good Will Hunting",
+    "year": "1997",
+    "rating": "8.3",
+    "genre": "Drama, Romance"
+  },
+  {
+    "title": "Glory",
+    "year": "1989",
+    "rating": "7.8",
+    "genre": "Biography, Drama, History, War"
+  },
+  {
+    "title": "Battleship Potemkin",
+    "year": "1925",
+    "rating": "7.9",
+    "genre": "Drama, History, Thriller, War"
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "year": "1988",
+    "rating": "8.1",
+    "genre": "Animation, Comedy, Family, Fantasy"
+  },
+  {
+    "title": "All the President's Men",
+    "year": "1976",
+    "rating": "7.9",
+    "genre": "Drama, History, Thriller"
+  },
+  {
+    "title": "The Wages of Fear",
+    "year": "1953",
+    "rating": "8.1",
+    "genre": "Adventure, Drama, Thriller"
+  },
+  {
+    "title": "Platoon",
+    "year": "1986",
+    "rating": "8.1",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "Sherlock Jr.",
+    "year": "1924",
+    "rating": "8.2",
+    "genre": "Action, Comedy, Romance"
+  },
+  {
+    "title": "Poltergeist",
+    "year": "1982",
+    "rating": "7.3",
+    "genre": "Horror, Thriller"
+  },
+  {
+    "title": "The Big Lebowski",
+    "year": "1998",
+    "rating": "8.1",
+    "genre": "Comedy, Crime"
+  },
+  {
+    "title": "Diabolique",
+    "year": "1955",
+    "rating": "8.1",
+    "genre": "Crime, Drama, Horror, Mystery, Thriller"
+  },
+  {
+    "title": "The Message",
+    "year": "1976",
+    "rating": "8.1",
+    "genre": "Biography, Drama, History, War"
+  },
+  {
+    "title": "Castle in the Sky",
+    "year": "1986",
+    "rating": "8.0",
+    "genre": "Animation, Adventure, Family, Fantasy"
+  },
+  {
+    "title": "Annie Hall",
+    "year": "1977",
+    "rating": "7.9",
+    "genre": "Comedy, Romance"
+  },
+  {
+    "title": "Pink Floyd: The Wall",
+    "year": "1982",
+    "rating": "8.0",
+    "genre": "Drama, Fantasy, Music"
+  },
+  {
+    "title": "Amadeus",
+    "year": "1984",
+    "rating": "8.4",
+    "genre": "Biography, Drama, Music"
+  },
+  {
+    "title": "Roman Holiday",
+    "year": "1953",
+    "rating": "8.0",
+    "genre": "Comedy, Drama, Romance"
+  },
+  {
+    "title": "Rocky",
+    "year": "1976",
+    "rating": "8.1",
+    "genre": "Drama, Sport"
+  },
+  {
+    "title": "Monty Python's Life of Brian",
+    "year": "1979",
+    "rating": "8.0",
+    "genre": "Comedy"
+  },
+  {
+    "title": "Eraserhead",
+    "year": "1977",
+    "rating": "7.3",
+    "genre": "Fantasy, Horror"
+  },
+  {
+    "title": "Au Revoir les Enfants",
+    "year": "1987",
+    "rating": "8.0",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "The Fifth Seal",
+    "year": "1976",
+    "rating": "8.5",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "Stalag 17",
+    "year": "1953",
+    "rating": "7.9",
+    "genre": "Comedy, Drama, War"
+  },
+  {
+    "title": "Top Gun",
+    "year": "1986",
+    "rating": "6.9",
+    "genre": "Action, Drama"
+  },
+  {
+    "title": "Come and See",
+    "year": "1985",
+    "rating": "8.3",
+    "genre": "Drama, Thriller, War"
+  },
+  {
+    "title": "Paris, Texas",
+    "year": "1984",
+    "rating": "8.1",
+    "genre": "Drama"
+  },
+  {
+    "title": "Stand by Me",
+    "year": "1986",
+    "rating": "8.1",
+    "genre": "Adventure, Comedy, Drama"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "year": "1987",
+    "rating": "8.2",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "Platoon",
+    "year": "1986",
+    "rating": "8.1",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "Nausicaä of the Valley of the Wind",
+    "year": "1984",
+    "rating": "8.0",
+    "genre": "Animation, Adventure, Sci-Fi"
+  },
+  {
+    "title": "Stalker",
+    "year": "1979",
+    "rating": "8.0",
+    "genre": "Drama, Sci-Fi"
+  },
+  {
+    "title": "The Exorcist",
+    "year": "1973",
+    "rating": "8.1",
+    "genre": "Horror"
+  },
+  {
+    "title": "La haine",
+    "year": "1995",
+    "rating": "8.1",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "The Battle of Algiers",
+    "year": "1966",
+    "rating": "8.1",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "Ben-Hur",
+    "year": "1959",
+    "rating": "8.1",
+    "genre": "Adventure, Drama"
+  },
+  {
+    "title": "Singin' in the Rain",
+    "year": "1952",
+    "rating": "8.3",
+    "genre": "Comedy, Musical, Romance"
+  },
+  {
+    "title": "The Third Man",
+    "year": "1949",
+    "rating": "8.1",
+    "genre": "Drama, Film-Noir, Mystery, Thriller"
+  },
+  {
+    "title": "Network",
+    "year": "1976",
+    "rating": "8.1",
+    "genre": "Drama"
+  },
+  {
+    "title": "Blade Runner",
+    "year": "1982",
+    "rating": "8.1",
+    "genre": "Action, Drama, Sci-Fi, Thriller"
+  },
+  {
+    "title": "Lagaan: Once Upon a Time in India",
+    "year": "2001",
+    "rating": "8.1",
+    "genre": "Drama, Musical, Sport"
+  },
+  {
+    "title": "Dial M for Murder",
+    "year": "1954",
+    "rating": "8.2",
+    "genre": "Crime, Drama, Mystery, Thriller"
+  },
+  {
+    "title": "Before Sunrise",
+    "year": "1995",
+    "rating": "8.1",
+    "genre": "Drama, Romance"
+  },
+  {
+    "title": "The Thing",
+    "year": "1982",
+    "rating": "8.2",
+    "genre": "Horror, Mystery, Sci-Fi"
+  },
+  {
+    "title": "The Man Who Shot Liberty Valance",
+    "year": "1962",
+    "rating": "8.1",
+    "genre": "Drama, Western"
+  },
+  {
+    "title": "On the Waterfront",
+    "year": "1954",
+    "rating": "8.1",
+    "genre": "Crime, Drama, Thriller"
+  },
+  {
+    "title": "Mr. Smith Goes to Washington",
+    "year": "1939",
+    "rating": "8.1",
+    "genre": "Comedy, Drama"
+  },
+  {
+    "title": "Gandhi",
+    "year": "1982",
+    "rating": "8.0",
+    "genre": "Biography, Drama, History"
+  },
+  {
+    "title": "The Seventh Seal",
+    "year": "1957",
+    "rating": "8.1",
+    "genre": "Drama, Fantasy"
+  },
+  {
+    "title": "Fargo",
+    "year": "1996",
+    "rating": "8.1",
+    "genre": "Crime, Drama, Thriller"
+  },
+  {
+    "title": "The Deer Hunter",
+    "year": "1978",
+    "rating": "8.1",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "The Gold Rush",
+    "year": "1925",
+    "rating": "8.1",
+    "genre": "Adventure, Comedy, Drama, Romance, Western"
+  },
+  {
+    "title": "Wild Strawberries",
+    "year": "1957",
+    "rating": "8.1",
+    "genre": "Drama, Romance"
+  },
+  {
+    "title": "Jaws",
+    "year": "1975",
+    "rating": "8.1",
+    "genre": "Adventure, Drama, Horror, Thriller"
+  },
+  {
+    "title": "Trainspotting",
+    "year": "1996",
+    "rating": "8.1",
+    "genre": "Drama"
+  },
+  {
+    "title": "The Bandit",
+    "year": "1996",
+    "rating": "8.1",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Sherlock Jr.",
+    "year": "1924",
+    "rating": "8.2",
+    "genre": "Action, Comedy, Romance"
+  },
+  {
+    "title": "Ran",
+    "year": "1985",
+    "rating": "8.2",
+    "genre": "Action, Drama, War"
+  },
+  {
+    "title": "Dersu Uzala",
+    "year": "1975",
+    "rating": "8.2",
+    "genre": "Adventure, Biography, Drama"
+  },
+  {
+    "title": "The Bridge on the River Kwai",
+    "year": "1957",
+    "rating": "8.1",
+    "genre": "Adventure, Drama, War"
+  },
+  {
+    "title": "The Passion of Joan of Arc",
+    "year": "1928",
+    "rating": "8.1",
+    "genre": "Biography, Drama, History"
+  },
+  {
+    "title": "Dead Poets Society",
+    "year": "1989",
+    "rating": "8.1",
+    "genre": "Comedy, Drama"
+  },
+  {
+    "title": "Good Will Hunting",
+    "year": "1997",
+    "rating": "8.3",
+    "genre": "Drama, Romance"
+  },
+  {
+    "title": "Glory",
+    "year": "1989",
+    "rating": "7.8",
+    "genre": "Biography, Drama, History, War"
+  },
+  {
+    "title": "Battleship Potemkin",
+    "year": "1925",
+    "rating": "7.9",
+    "genre": "Drama, History, Thriller, War"
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "year": "1988",
+    "rating": "8.1",
+    "genre": "Animation, Comedy, Family, Fantasy"
+  },
+  {
+    "title": "All the President's Men",
+    "year": "1976",
+    "rating": "7.9",
+    "genre": "Drama, History, Thriller"
+  },
+  {
+    "title": "The Wages of Fear",
+    "year": "1953",
+    "rating": "8.1",
+    "genre": "Adventure, Drama, Thriller"
+  },
+  {
+    "title": "Platoon",
+    "year": "1986",
+    "rating": "8.1",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "Sherlock Jr.",
+    "year": "1924",
+    "rating": "8.2",
+    "genre": "Action, Comedy, Romance"
+  },
+  {
+    "title": "Poltergeist",
+    "year": "1982",
+    "rating": "7.3",
+    "genre": "Horror, Thriller"
+  },
+  {
+    "title": "The Big Lebowski",
+    "year": "1998",
+    "rating": "8.1",
+    "genre": "Comedy, Crime"
+  },
+  {
+    "title": "Diabolique",
+    "year": "1955",
+    "rating": "8.1",
+    "genre": "Crime, Drama, Horror, Mystery, Thriller"
+  },
+  {
+    "title": "The Message",
+    "year": "1976",
+    "rating": "8.1",
+    "genre": "Biography, Drama, History, War"
+  },
+  {
+    "title": "Castle in the Sky",
+    "year": "1986",
+    "rating": "8.0",
+    "genre": "Animation, Adventure, Family, Fantasy"
+  },
+  {
+    "title": "Annie Hall",
+    "year": "1977",
+    "rating": "7.9",
+    "genre": "Comedy, Romance"
+  },
+  {
+    "title": "Pink Floyd: The Wall",
+    "year": "1982",
+    "rating": "8.0",
+    "genre": "Drama, Fantasy, Music"
+  },
+  {
+    "title": "Amadeus",
+    "year": "1984",
+    "rating": "8.4",
+    "genre": "Biography, Drama, Music"
+  },
+  {
+    "title": "Roman Holiday",
+    "year": "1953",
+    "rating": "8.0",
+    "genre": "Comedy, Drama, Romance"
+  },
+  {
+    "title": "Rocky",
+    "year": "1976",
+    "rating": "8.1",
+    "genre": "Drama, Sport"
+  },
+  {
+    "title": "Monty Python's Life of Brian",
+    "year": "1979",
+    "rating": "8.0",
+    "genre": "Comedy"
+  },
+  {
+    "title": "Eraserhead",
+    "year": "1977",
+    "rating": "7.3",
+    "genre": "Fantasy, Horror"
+  },
+  {
+    "title": "Au Revoir les Enfants",
+    "year": "1987",
+    "rating": "8.0",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "The Fifth Seal",
+    "year": "1976",
+    "rating": "8.5",
+    "genre": "Drama, War"
+  },
+  {
+    "title": "Stalag 17",
+    "year": "1953",
+    "rating": "7.9",
+    "genre": "Comedy, Drama, War"
+  },
+  {
+    "title": "Top Gun",
+    "year": "1986",
+    "rating": "6.9",
+    "genre": "Action, Drama"
+  },
+  {
+    "title": "Come and See",
+    "year": "1985",
+    "rating": "8.3",
+    "genre": "Drama, Thriller, War"
+  },
+  {
+    "title": "Paris, Texas",
+    "year": "1984",
+    "rating": "8.1",
+    "genre": "Drama"
+  },
+  {
+    "title": "Stand by Me",
+    "year": "1986",
+    "rating": "8.1",
+    "genre": "Adventure, Comedy, Drama"
+  }
+]
