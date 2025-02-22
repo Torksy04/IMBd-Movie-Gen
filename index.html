@@ -32,6 +32,7 @@
             border: 1px solid #ddd;
             border-radius: 5px;
             display: none;
+            background-color: white;
         }
 
         .movie-info {
@@ -64,6 +65,18 @@
             text-align: center;
             display: none;
         }
+
+        .movie-poster {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .movie-poster img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
 <body>
@@ -76,6 +89,9 @@
         </div>
 
         <div id="movieCard" class="movie-card">
+            <div class="movie-poster">
+                <img id="moviePoster" src="" alt="Movie Poster">
+            </div>
             <div class="movie-info">
                 <span class="label">Title:</span> 
                 <span id="movieTitle"></span>
@@ -109,14 +125,21 @@
                 const response = await fetch('movies.json');
                 const movies = await response.json();
                 
-                // Generate random movie
                 const randomMovie = movies[Math.floor(Math.random() * movies.length)];
                 
-                // Update UI
                 document.getElementById('movieTitle').textContent = randomMovie.title;
                 document.getElementById('movieYear').textContent = randomMovie.year;
                 document.getElementById('movieRating').textContent = randomMovie.rating;
                 document.getElementById('movieGenre').textContent = randomMovie.genre;
+                
+                // Set poster image
+                const posterImg = document.getElementById('moviePoster');
+                if (randomMovie.poster) {
+                    posterImg.src = randomMovie.poster;
+                    posterImg.style.display = 'block';
+                } else {
+                    posterImg.style.display = 'none';
+                }
                 
                 movieCard.style.display = 'block';
             } catch (error) {

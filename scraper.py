@@ -59,12 +59,18 @@ def get_movies(num_movies=250):
                 # Extract genres (if available)
                 genres = ', '.join(movie_details.get('genres', []))
                 
+                # Get poster URL
+                poster_url = movie_details.get('full-size cover url', '')
+                if not poster_url:
+                    poster_url = movie_details.get('cover url', '')  # fallback to smaller image
+                
                 # Create movie entry
                 movie_data = {
                     "title": movie_details.get('title', ''),
                     "year": str(movie_details.get('year', '')),
                     "rating": str(movie_details.get('rating', '')),
-                    "genre": genres
+                    "genre": genres,
+                    "poster": poster_url  # Add poster URL to the data
                 }
                 
                 movies.append(movie_data)
@@ -114,3 +120,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
