@@ -87,12 +87,49 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
+        
+        .genre-selector {
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        select {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background-color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .no-movies {
+            display: none;
+            text-align: center;
+            margin: 20px;
+            padding: 15px;
+            background-color: #f8d7da;
+            color: #721c24;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>IMDb Top 250 Movie Generator</h1>
+        
+        <div class="genre-selector">
+            <label for="genreSelect">Select a genre (optional):</label>
+            <select id="genreSelect">
+                <option value="">Any Genre</option>
+                <!-- Genres will be populated dynamically -->
+            </select>
+        </div>
+        
         <button id="generateBtn">Generate Random Movie</button>
+        
+        <div id="noMovies" class="no-movies">
+            No movies found for this genre. Please try another genre.
+        </div>
         
         <div id="loading" class="loading">
             Loading...
@@ -122,43 +159,95 @@
     </div>
 
     <script>
-        document.getElementById('generateBtn').addEventListener('click', generateMovie);
-
-        async function generateMovie() {
+        document.addEventListener('DOMContentLoaded', async function() {
+            const genreSelect = document.getElementById('genreSelect');
+            const generateBtn = document.getElementById('generateBtn');
             const loadingElement = document.getElementById('loading');
             const movieCard = document.getElementById('movieCard');
+            const noMoviesElement = document.getElementById('noMovies');
             
-            loadingElement.style.display = 'block';
-            movieCard.style.display = 'none';
-
+            let allMovies = [];
+            let allGenres = new Set();
+            
+            // Load movies and populate genre dropdown
             try {
+                loadingElement.style.display = 'block';
                 const response = await fetch('movies.json');
-                const movies = await response.json();
+                allMovies = await response.json();
                 
-                const randomMovie = movies[Math.floor(Math.random() * movies.length)];
+                // Extract all unique genres
+                allMovies.forEach(movie => {
+                    if (movie.genre) {
+                        const genres = movie.genre.split(', ');
+                        genres.forEach(genre => allGenres.add(genre.trim()));
+                    }
+                });
                 
-                document.getElementById('movieTitle').textContent = randomMovie.title;
-                document.getElementById('movieYear').textContent = randomMovie.year;
-                document.getElementById('movieRating').textContent = randomMovie.rating;
-                document.getElementById('movieGenre').textContent = randomMovie.genre;
+                // Sort genres alphabetically
+                const sortedGenres = Array.from(allGenres).sort();
                 
-                // Set poster image
-                const posterImg = document.getElementById('moviePoster');
-                if (randomMovie.poster) {
-                    posterImg.src = randomMovie.poster;
-                    posterImg.style.display = 'block';
-                } else {
-                    posterImg.style.display = 'none';
-                }
-                
-                movieCard.style.display = 'block';
+                // Populate dropdown
+                sortedGenres.forEach(genre => {
+                    const option = document.createElement('option');
+                    option.value = genre;
+                    option.textContent = genre;
+                    genreSelect.appendChild(option);
+                });
             } catch (error) {
-                console.error('Error:', error);
-                alert('Error loading movies. Please try again.');
+                console.error('Error loading movies:', error);
             } finally {
                 loadingElement.style.display = 'none';
             }
-        }
+            
+            generateBtn.addEventListener('click', generateMovie);
+            
+            async function generateMovie() {
+                const selectedGenre = genreSelect.value;
+                loadingElement.style.display = 'block';
+                movieCard.style.display = 'none';
+                noMoviesElement.style.display = 'none';
+                
+                try {
+                    // Filter movies by selected genre
+                    let filteredMovies = allMovies;
+                    if (selectedGenre) {
+                        filteredMovies = allMovies.filter(movie => 
+                            movie.genre && movie.genre.includes(selectedGenre)
+                        );
+                    }
+                    
+                    // Check if we have movies matching the genre
+                    if (filteredMovies.length === 0) {
+                        noMoviesElement.style.display = 'block';
+                        return;
+                    }
+                    
+                    // Select random movie from filtered list
+                    const randomMovie = filteredMovies[Math.floor(Math.random() * filteredMovies.length)];
+                    
+                    document.getElementById('movieTitle').textContent = randomMovie.title;
+                    document.getElementById('movieYear').textContent = randomMovie.year;
+                    document.getElementById('movieRating').textContent = randomMovie.rating;
+                    document.getElementById('movieGenre').textContent = randomMovie.genre;
+                    
+                    // Set poster image
+                    const posterImg = document.getElementById('moviePoster');
+                    if (randomMovie.poster) {
+                        posterImg.src = randomMovie.poster;
+                        posterImg.style.display = 'block';
+                    } else {
+                        posterImg.style.display = 'none';
+                    }
+                    
+                    movieCard.style.display = 'block';
+                } catch (error) {
+                    console.error('Error:', error);
+                    alert('Error generating movie. Please try again.');
+                } finally {
+                    loadingElement.style.display = 'none';
+                }
+            }
+        });
     </script>
 </body>
 </html>
