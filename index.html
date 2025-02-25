@@ -111,6 +111,11 @@
             color: #721c24;
             border-radius: 5px;
         }
+
+        #movieRank {
+            font-weight: 600;
+            color: #f5c518; /* IMDb yellow */
+        }
     </style>
 </head>
 <body>
@@ -155,6 +160,10 @@
                 <span class="label">Genre:</span> 
                 <span id="movieGenre"></span>
             </div>
+            <div class="movie-info">
+                <span class="label">IMDb Rank:</span> 
+                <span id="movieRank"></span>
+            </div>
         </div>
     </div>
 
@@ -174,6 +183,11 @@
                 loadingElement.style.display = 'block';
                 const response = await fetch('movies.json');
                 allMovies = await response.json();
+                
+                // Add index property to each movie (position in the array + 1)
+                allMovies.forEach((movie, index) => {
+                    movie.rank = index + 1;
+                });
                 
                 // Extract all unique genres
                 allMovies.forEach(movie => {
@@ -229,6 +243,7 @@
                     document.getElementById('movieYear').textContent = randomMovie.year;
                     document.getElementById('movieRating').textContent = randomMovie.rating;
                     document.getElementById('movieGenre').textContent = randomMovie.genre;
+                    document.getElementById('movieRank').textContent = `#${randomMovie.rank} in IMDb Top 250`;
                     
                     // Set poster image
                     const posterImg = document.getElementById('moviePoster');
